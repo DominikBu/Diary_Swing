@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1075" height="534"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="86bba" class="javax.swing.JButton" binding="buttonRemoveStudent">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove student"/>
+        </properties>
+      </component>
+      <component id="e40d4" class="javax.swing.JButton" binding="buttonAddStudent">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add student"/>
+        </properties>
+      </component>
+      <component id="2f950" class="javax.swing.JButton" binding="buttonAddClass">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add class"/>
+        </properties>
+      </component>
+      <component id="3269c" class="javax.swing.JButton" binding="buttonRemoveClass">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove class"/>
+        </properties>
+      </component>
+      <scrollpane id="1ca21">
+        <constraints>
+          <grid row="1" column="4" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fa777" class="javax.swing.JTable" binding="tableClass">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="2f6fe">
+        <constraints>
+          <grid row="1" column="3" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="80e96" class="javax.swing.JTable" binding="tableStudent">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="7de8c" class="javax.swing.JTextField" binding="textField">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3559d" class="javax.swing.JButton" binding="buttonCondition">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Change student condition"/>
+        </properties>
+      </component>
+      <component id="ffc7c" class="javax.swing.JLabel" binding="labelClass">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Classes:"/>
+        </properties>
+      </component>
+      <component id="2dbc4" class="javax.swing.JLabel" binding="labelStudent">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Students:"/>
+        </properties>
+      </component>
+      <component id="9b885" class="javax.swing.JButton" binding="buttonChangeClass">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Change class info"/>
+        </properties>
+      </component>
+      <component id="164fd" class="javax.swing.JButton" binding="buttonChangeStudent">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Change student info"/>
+        </properties>
+      </component>
+      <component id="b7e04" class="javax.swing.JButton" binding="buttonFilter">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Filter textbox"/>
+        </properties>
+      </component>
+      <component id="1dfc4" class="javax.swing.JLabel" binding="labelTextfield">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Text field:"/>
+        </properties>
+      </component>
+      <component id="98ba9" class="javax.swing.JButton" binding="button_point_down">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Decrease points"/>
+        </properties>
+      </component>
+      <component id="68204" class="javax.swing.JButton" binding="button_point_up">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Increase points"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
